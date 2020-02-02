@@ -7,7 +7,7 @@ def create_an_array
   1.upto(4) { |n|
   value_array << n
   }
-  puts value_array
+  p value_array
 end
 
 def add_element_to_end_of_array(array, element)
