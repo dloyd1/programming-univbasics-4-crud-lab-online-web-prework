@@ -4,7 +4,7 @@ end
 
 def create_an_array
   value_array = Array.new(4)
-  return value_array
+  puts value_array
 end
 
 def add_element_to_end_of_array(array, element)
