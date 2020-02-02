@@ -4,8 +4,10 @@ end
 
 def create_an_array
   value_array = []
-  value_array << 1.upto(4)
-  return value_array
+  1.upto(4) { |n| 
+    value_array << n
+  }
+  value_array
 end
 
 def add_element_to_end_of_array(array, element)
