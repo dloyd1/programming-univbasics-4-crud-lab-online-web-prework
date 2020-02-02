@@ -1,9 +1,11 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  value_array = []
+  value_array << 1.upto(4)
+  return value_array
 end
 
 def add_element_to_end_of_array(array, element)
@@ -37,3 +39,5 @@ end
 def update_element_from_index(array, index_number, element)
 
 end
+
+create_an_array
