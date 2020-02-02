@@ -3,10 +3,7 @@ def create_an_empty_array
 end
 
 def create_an_array
-  value_array = []
-  1.upto(4) { |n| 
-    value_array << n
-  }
+  value_array = Array.new(4)
   return value_array
 end
 
